@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="css/contact.css">
+
+</head>
+
+<body>
+  <div class="flexbox-contact">
+    <div class="topnav">
+      <a class="active" href="home.html">Home</a>
+      <a href="news.html">News</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+      <!--de navigatiebalk-->
+    </div>
+    <div class="contacttable">
+      <h1> de contactpagina</h1>
+      <p>zo kunt u mij bereiken</p>
+      <table style="width: 1500px;">
+        <tr>
+          <th colspan="3">contact information</th>
+        </tr>
+        <tr>
+          <td>business E-mail</td>
+          <td>private E-mail</td>
+          <td>phone</td>
+        </tr>
+        <tr>
+          <td>1198506@student.roc-nijmegen.nl</td>
+          <td>LHP.smits@icloud.com</td>
+          <td>**********</td>
+        </tr>
+      </table>
+    </div>
+    <div class="container">
+      <h1>
+        hieronder kunt u uw contactgegevens invullen
+      </h1>
+      <form action="action_page">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="nederland">nederland</option>
+          <option value="belgië">belgië</option>
+          <option value="croissant">frankrijk >:(</option>
+        </select>
+        <!--i dislike french people-->
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
+    <!--het contactformulier-->
+
+    <audio autoplay>
+      <source src="audio/Call_Me_Maybe.mp3" type="audio/mpeg">
+    </audio>
+    <!--sorry, was niet mijn idee...-->
+   
+  </div>
+</body>
+
+</html>

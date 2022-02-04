@@ -1,0 +1,89 @@
+body {
+    margin: 0%;
+    font-family: 'Syne Tactile', cursive;
+    width:100%;
+    height:150vh;
+  }
+  .flexbox-home{
+    flex-direction: column;
+    display:flex;
+    height:100%;
+    width:100%;
+    background-color:#D3DEDC;
+    margin:0%;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .parenttext{
+    align-items:center;
+    flex-direction:column;
+    width: 100%;
+    height:100vh;
+    display:flex;
+  }
+  .textheader{
+    background-color:#92A9BD;
+    width: 80%;
+    display: flex;
+    border-radius:25px;
+    box-shadow:10px 10px;
+    margin-top:10px;
+    margin-bottom:30px;
+    height:100px;
+    padding:5px;
+    flex-direction:column;
+  }
+  .headeronlytext{
+    text-align:center;
+  }
+  .headerofsmallertext{
+    text-align:center;
+  }
+  .maintext{
+    background-color:#7C99AC;
+    width:85%;
+    justify-content: space-between;
+    border-radius:25px;
+    box-shadow:10px 10px;
+    height:fit-content;
+    padding:5px;
+    flex-direction: column;
+    text-align: center;
+  } 
+  .stukjetekst{
+    text-align: center;
+  }
+  table, th, td {
+    border: 1px solid black;
+    background-color: #92A9BD;
+    border-collapse: collapse;
+  }
+  .tabel{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+#katmetblad{
+      width:100px;
+  }
